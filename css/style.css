@@ -1,0 +1,53 @@
+
+body{
+	background: #B1DFDE;
+	font: normal .8em/1.5em Arial, Helvetica, sans-serif;
+	width: auto;
+	margin: 10px auto;
+	color: #4A4A4A;
+}
+
+div{
+	float: left;
+  width: 100%;
+	border-radius: 3em;
+}
+
+/*Cabecera*/
+
+#logo{
+	float: left;
+  width: 20%;
+}
+
+#banner{
+	float: left;
+  width: 40%;
+}
+
+#niveles{
+	float: left;
+  width: 40%;
+}
+
+/*Menu y buscador*/
+
+#menu{
+	float: left;
+  width: 65%;
+}
+
+#buscador{
+	float: left;
+  width: 35%;
+}
+
+/*Contenido*/
+#contenido{
+	float: left;
+  width: 75%;
+}
+#colDer{
+	float: left;
+  width: 25%;
+}
