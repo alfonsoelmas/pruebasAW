@@ -3,25 +3,28 @@
 	<head>
 		<title>Inicio</title>
 		<meta charset="utf-8" />
-		<link href="../css/style.css" rel="stylesheet" type="text/css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" /> <!--Con esto garantizamos que se vea bien en dispositivos móviles-->
+		<link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="../css/style.css" rel="stylesheet" type="text/css" media="screen"/>
+
 		<!--Prueba de página de inicio, creada por Alfonso Soria Muñoz-->
 	</head>
 	<body>
-		<div> <!--Bloque Cabecera (logo banner y niveles)-->
-			<div id="logo">
+		<div class="container-fluid"> <!--Bloque Cabecera (logo banner y niveles)-->
+			<div id="logo" class="container-fluid">
 				<img src="../img/logo/logo1.png" class="logo">
 			</div>
-			<div id="banner">
+			<div id="banner" class="container-fluid">
 				<img src="../img/logo/logo6.png" class="banner">
 			</div>
-			<div id="niveles">
+			<div id="niveles" class="container-fluid">
 				<a href="#">nivel1 > nivel2 > nivel3</a>
 			</div>
 		</div>
-		<div id="navegador"> <!--Bloque Menu y buscador-->
-			<div id="menu">
-				<ul id="nav">
-					<li class="current">
+		<div id="navegador" class="container-fluid"> <!--Bloque Menu y buscador-->
+			<div id="menu" class="container-fluid">
+				<ul id="nav" class="container-fluid">
+					<li class="current" class="container-fluid">
 						<a href="#">Inicio</a>
 					</li>
 					<li>
@@ -38,27 +41,43 @@
 					</li>
 				</ul>
 			</div>
-			<div id="buscador">
+			<div id="buscador" class="container-fluid">
 				<a>Buscador (que sera un miniForm supongo)</a>
 			</div>
 		</div>
 		<div> <!--Bloque Contenido-->
-			<div id="contenido">
-				<div id="presentacion">
+			<div id="contenido" class="container-fluid">
+				<div id="presentacion" class="container-fluid">
 					<h1> SOBRE LA PAGINA </h1>
 					<p> Aqui hablar de la pagina blablabla</p>
 				</div>
-				<div id="valorados">
+				<div id="valorados" class="container-fluid">
 					<h3> Valorados </h3>
 					<p> Este bloque mostraria valorados</p>
 				</div>
 			</div>
-			<div id="colDer">
-				<div id="logRed">
+			<div id="colDer" class="container-fluid">
+				<div id="logRed" class="container-fluid">
 					<a>loggin redes</a>
 				</div>
-				<div id="logReg">
-					<a>loggin normal y registro</a>
+				<div id="logReg" class="container-fluid">
+					<h3>Inicio de sesión</h3>
+					<form class="form-inline">
+					  <div class="form-group">
+						<label class="sr-only" for="logginEmail">Correo</label>
+						<input type="email" class="form-control" id="logginEmail" placeholder="Email">
+					  </div>
+					  <div class="form-group">
+						<label class="sr-only" for="exampleInputPassword3">Contraseña</label>
+						<input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+					  </div>
+					  <div class="checkbox">
+						<label>
+						  <input type="checkbox"> Recordar usuario
+						</label>
+					  </div>
+					  <button type="submit" class="btn btn-default">Entrar</button>
+					</form>
 				</div>
 			</div>
 		</div>
