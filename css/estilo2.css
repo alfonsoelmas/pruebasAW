@@ -42,7 +42,8 @@
       margin-bottom: 0px;
       padding-top: 0;
       margin-bottom: 0;
-
+      
+      background-image: url("../img/fondo.jpg");
 
     }
 
@@ -53,7 +54,8 @@
     #bloque-inicio{
       margin-top: 10px;
     }
-    @media screen and (min-width: 867px) {
+
+  
     #text-bloque-inicio{
       font-size: 34px;
       font-weight: 13px;
@@ -62,4 +64,44 @@
     #par-bloque-inicio{
       font-size: 17px;
     }
-  }
+  
+
+
+    .actual{
+      background-color: #3C3B3B;
+    }
+    /*
+    .actual .navbar-inverse .navbar-brand:hover {
+    color: #fff;
+    background-color: #3C3B3B;
+  }*/
+
+    #buscador{
+      background-color: #3C3B3B;
+      border-color: #3C3B3B;
+      color:white;
+    }
+
+
+    #buscador:hover{
+      background-color:646363;
+    }
+
+    #color-defecto{
+      color: #A29F9F;
+    }
+
+    #color-defecto:hover{
+      color: white;
+
+    }
+
+    #logo{
+      padding-top: 20px;
+      max-height:135px;
+      max-width: 135px;
+    }
+
+    .jumbotron .h1, .jumbotron h1 {
+    font-size: 63px;
+}
